@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="BackGround">
+  <ClassDiagramComponents>
+    <Class name="Cerceve" package="BackGround" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="jFrame" type="JFrame" visibility="package"/>
+        <Field name="genislik" type="int" visibility="private" isFinal="true"/>
+        <Field name="jPanel" type="JPanel" visibility="package"/>
+        <Field name="startGui" type="StartGui" visibility="package"/>
+        <Field name="oyun" type="OyunPenceresi" visibility="package"/>
+        <Field name="timStartGui" type="TimStartGui" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getJFrame" returnType="JFrame" visibility="public"/>
+        <Method name="setDimension" returnType="void" visibility="public"/>
+        <Method name="getstartGui" returnType="StartGui" visibility="public"/>
+        <Method name="getTimStartGui" returnType="TimStartGui" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Map" package="BackGround" visibility="public" xPosition="233.0" yPosition="175.0">
+      <Fields>
+        <Field name="zorluk" type="int" visibility="public"/>
+        <Field name="engel" type="Engeller" visibility="package"/>
+        <Field name="gList" type="ArrayList&lt;PacGuy&gt;" visibility="package"/>
+        <Field name="eList" type="ArrayList&lt;Engeller&gt;" visibility="package"/>
+        <Field name="yList" type="ArrayList&lt;Yem2&gt;" visibility="package"/>
+        <Field name="pacGuy" type="PacGuy" visibility="package"/>
+        <Field name="keyListenerr" type="KeyListenerr" visibility="package"/>
+        <Field name="timer" type="Timer" visibility="package"/>
+        <Field name="timer2" type="Timer" visibility="package"/>
+        <Field name="timer3" type="Timer" visibility="package"/>
+        <Field name="timStartGui" type="TimStartGui" visibility="package"/>
+        <Field name="yem" type="Yem2" visibility="package"/>
+        <Field name="i" type="int" visibility="package"/>
+        <Field name="score" type="Score" visibility="package"/>
+        <Field name="ghost" type="ghosts" visibility="package"/>
+        <Field name="bghost" type="bghost" visibility="package"/>
+        <Field name="rghost" type="rghost" visibility="package"/>
+        <Field name="yghost" type="yghost" visibility="package"/>
+        <Field name="random" type="Random" visibility="package"/>
+        <Field name="MGP" type="AudioPlayer" visibility="package"/>
+        <Field name="BGM" type="AudioStream" visibility="package"/>
+        <Field name="MD" type="AudioData" visibility="package"/>
+        <Field name="loop" type="AudioDataStream" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="zorluk"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getTimer" returnType="Timer" visibility="public"/>
+        <Method name="getTimer2" returnType="Timer" visibility="public"/>
+        <Method name="getTimer3" returnType="Timer" visibility="public"/>
+        <Method name="getEngeller" returnType="Engeller" visibility="public"/>
+        <Method name="getYem" returnType="Yem2" visibility="public"/>
+        <Method name="Engel1" returnType="void" visibility="public"/>
+        <Method name="RHaylet" returnType="void" visibility="public"/>
+        <Method name="getPacguy" returnType="PacGuy" visibility="public"/>
+        <Method name="getGhosts" returnType="ghosts" visibility="public"/>
+        <Method name="getBGhosts" returnType="bghost" visibility="public"/>
+        <Method name="getRGhosts" returnType="rghost" visibility="public"/>
+        <Method name="getYGhosts" returnType="yghost" visibility="public"/>
+        <Method name="getScore" returnType="Score" visibility="public"/>
+        <Method name="getKeyListenerr" returnType="KeyListenerr" visibility="public"/>
+        <Method name="getTimStartGui" returnType="TimStartGui" visibility="public"/>
+        <Method name="carpisma" returnType="boolean" visibility="public"/>
+        <Method name="carpisma3" returnType="void" visibility="public"/>
+        <Method name="carpisma4" returnType="void" visibility="public"/>
+        <Method name="carpisma2" returnType="void" visibility="public"/>
+        <Method name="YemEkle" returnType="void" visibility="public"/>
+        <Method name="Maphareket" returnType="void" visibility="public"/>
+        <Method name="music" returnType="void" visibility="public"/>
+        <Method name="music2" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="OyunPenceresi" package="BackGround" visibility="public" xPosition="473.0" yPosition="8.0">
+      <Fields>
+        <Field name="zorluk" type="int" visibility="public"/>
+        <Field name="genislik" type="int" visibility="package"/>
+        <Field name="jPanel" type="JPanel" visibility="package"/>
+        <Field name="map" type="Map" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="zorluk"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getZorluk" returnType="int" visibility="public"/>
+        <Method name="setZorluk" returnType="void" visibility="public">
+          <Argument type="int" name="zorluk"/>
+        </Method>
+        <Method name="setDimension" returnType="void" visibility="public"/>
+        <Method name="getJPanel" returnType="JPanel" visibility="public"/>
+        <Method name="getMap" returnType="Map" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="OyunPenceresi2" package="BackGround" visibility="public" xPosition="699.0" yPosition="31.0">
+      <Fields>
+        <Field name="jframe" type="JFrame" visibility="package"/>
+        <Field name="jpanel" type="JPanel" visibility="package"/>
+        <Field name="pacguy" type="PacGuy" visibility="package"/>
+        <Field name="yList" type="ArrayList&lt;Yem&gt;" visibility="package"/>
+        <Field name="gList" type="ArrayList&lt;PacGuy&gt;" visibility="package"/>
+        <Field name="yem1" type="Yem" visibility="package"/>
+        <Field name="k" type="int" visibility="package"/>
+        <Field name="ghost" type="ghosts" visibility="package"/>
+        <Field name="rghost" type="rghost" visibility="package"/>
+        <Field name="yghost" type="yghost" visibility="package"/>
+        <Field name="MGP" type="AudioPlayer" visibility="package"/>
+        <Field name="BGM" type="AudioStream" visibility="package"/>
+        <Field name="MD" type="AudioData" visibility="package"/>
+        <Field name="loop" type="AudioDataStream" visibility="package"/>
+        <Field name="score2" type="Score2" visibility="package"/>
+        <Field name="engelUst" type="Engel" visibility="package"/>
+        <Field name="engelSag1" type="Engel" visibility="package"/>
+        <Field name="engelSag2" type="Engel" visibility="package"/>
+        <Field name="engelSol1" type="Engel" visibility="package"/>
+        <Field name="engelSol2" type="Engel" visibility="package"/>
+        <Field name="engelAlt" type="Engel" visibility="package"/>
+        <Field name="sekil01" type="Engel" visibility="package"/>
+        <Field name="sekil02" type="Engel" visibility="package"/>
+        <Field name="sekil03" type="Engel" visibility="package"/>
+        <Field name="sekil04" type="Engel" visibility="package"/>
+        <Field name="harfcu01" type="Engel" visibility="package"/>
+        <Field name="harfcu02" type="Engel" visibility="package"/>
+        <Field name="harfcu03" type="Engel" visibility="package"/>
+        <Field name="harfcu04" type="Engel" visibility="package"/>
+        <Field name="harfcl01" type="Engel" visibility="package"/>
+        <Field name="harfcl02" type="Engel" visibility="package"/>
+        <Field name="harfcl03" type="Engel" visibility="package"/>
+        <Field name="harfcl04" type="Engel" visibility="package"/>
+        <Field name="harfcr01" type="Engel" visibility="package"/>
+        <Field name="harfcr02" type="Engel" visibility="package"/>
+        <Field name="harfcr03" type="Engel" visibility="package"/>
+        <Field name="harfcr04" type="Engel" visibility="package"/>
+        <Field name="harfcd01" type="Engel" visibility="package"/>
+        <Field name="harfcd02" type="Engel" visibility="package"/>
+        <Field name="harfcd03" type="Engel" visibility="package"/>
+        <Field name="harfcd04" type="Engel" visibility="package"/>
+        <Field name="harf_e01" type="Engel" visibility="package"/>
+        <Field name="harf_e02" type="Engel" visibility="package"/>
+        <Field name="harf_e03" type="Engel" visibility="package"/>
+        <Field name="harf_e04" type="Engel" visibility="package"/>
+        <Field name="harf_s01" type="Engel" visibility="package"/>
+        <Field name="harf_s02" type="Engel" visibility="package"/>
+        <Field name="harf_s03" type="Engel" visibility="package"/>
+        <Field name="harf_s04" type="Engel" visibility="package"/>
+        <Field name="harf_s05" type="Engel" visibility="package"/>
+        <Field name="harf_r01" type="Engel" visibility="package"/>
+        <Field name="harf_r02" type="Engel" visibility="package"/>
+        <Field name="harf_r03" type="Engel" visibility="package"/>
+        <Field name="harf_r04" type="Engel" visibility="package"/>
+        <Field name="harf_r05" type="Engel" visibility="package"/>
+        <Field name="harf_r06" type="Engel" visibility="package"/>
+        <Field name="harf_r07" type="Engel" visibility="package"/>
+        <Field name="harf_r08" type="Engel" visibility="package"/>
+        <Field name="harf_r09" type="Engel" visibility="package"/>
+        <Field name="harf_a01" type="Engel" visibility="package"/>
+        <Field name="harf_a02" type="Engel" visibility="package"/>
+        <Field name="harf_a03" type="Engel" visibility="package"/>
+        <Field name="harf_a04" type="Engel" visibility="package"/>
+        <Field name="sekil06" type="Engel" visibility="package"/>
+        <Field name="sekil08" type="Engel" visibility="package"/>
+        <Field name="sekil10" type="Engel" visibility="package"/>
+        <Field name="sekil12" type="Engel" visibility="package"/>
+        <Field name="Timstartgui" type="TimStartGui" visibility="package"/>
+        <Field name="key" type="KeyListenerr" visibility="package"/>
+        <Field name="timer" type="Timer" visibility="package"/>
+        <Field name="timer1" type="Timer" visibility="package"/>
+        <Field name="random" type="Random" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setDimension" returnType="void" visibility="public"/>
+        <Method name="map" returnType="void" visibility="public"/>
+        <Method name="getJframe" returnType="JFrame" visibility="public"/>
+        <Method name="getJpanel" returnType="JPanel" visibility="public"/>
+        <Method name="getScore2" returnType="Score2" visibility="public"/>
+        <Method name="getPacguy" returnType="PacGuy" visibility="public"/>
+        <Method name="getTimstartgui" returnType="TimStartGui" visibility="public"/>
+        <Method name="getTimer" returnType="Timer" visibility="public"/>
+        <Method name="getTimer1" returnType="Timer" visibility="public"/>
+        <Method name="getKey" returnType="KeyListenerr" visibility="public"/>
+        <Method name="YemEkle" returnType="void" visibility="public"/>
+        <Method name="Yemkontrol" returnType="void" visibility="public"/>
+        <Method name="getGhost" returnType="ghosts" visibility="public"/>
+        <Method name="getRghost" returnType="rghost" visibility="public"/>
+        <Method name="getYghost" returnType="yghost" visibility="public"/>
+        <Method name="GhostKontrol" returnType="void" visibility="public"/>
+        <Method name="GhostYon" returnType="void" visibility="public"/>
+        <Method name="GhostHareket" returnType="void" visibility="public">
+          <Argument type="E" name="e"/>
+          <Argument type="int" name="x"/>
+        </Method>
+        <Method name="music" returnType="void" visibility="public"/>
+        <Method name="music2" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Score" package="BackGround" visibility="public" xPosition="972.0" yPosition="20.0">
+      <Fields>
+        <Field name="score" type="int" visibility="private"/>
+        <Field name="can" type="int" visibility="private"/>
+        <Field name="pList" type="ArrayList&lt;PacGuy&gt;" visibility="package"/>
+        <Field name="pacGuy" type="PacGuy" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getpList" returnType="ArrayList&lt;PacGuy&gt;" visibility="public"/>
+        <Method name="setpList" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;PacGuy&gt;" name="pList"/>
+        </Method>
+        <Method name="getCan" returnType="int" visibility="public"/>
+        <Method name="setCan" returnType="void" visibility="public">
+          <Argument type="int" name="can"/>
+        </Method>
+        <Method name="getScore" returnType="int" visibility="public"/>
+        <Method name="setScore" returnType="void" visibility="public">
+          <Argument type="int" name="score"/>
+        </Method>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+        <Method name="repaint" returnType="void" visibility="public"/>
+        <Method name="getPacGuy" returnType="PacGuy" visibility="public"/>
+        <Method name="getPacGuy1" returnType="PacGuy" visibility="public"/>
+        <Method name="getPacGuy2" returnType="PacGuy" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Score2" package="BackGround" visibility="public" xPosition="972.0" yPosition="482.0">
+      <Fields>
+        <Field name="score" type="int" visibility="private"/>
+        <Field name="can" type="int" visibility="private"/>
+        <Field name="pList" type="ArrayList&lt;PacGuy&gt;" visibility="package"/>
+        <Field name="pacGuy" type="PacGuy" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getpList" returnType="ArrayList&lt;PacGuy&gt;" visibility="public"/>
+        <Method name="setpList" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;PacGuy&gt;" name="pList"/>
+        </Method>
+        <Method name="getCan" returnType="int" visibility="public"/>
+        <Method name="setCan" returnType="void" visibility="public">
+          <Argument type="int" name="can"/>
+        </Method>
+        <Method name="getScore" returnType="int" visibility="public"/>
+        <Method name="setScore" returnType="void" visibility="public">
+          <Argument type="int" name="score"/>
+        </Method>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+        <Method name="repaint" returnType="void" visibility="public"/>
+        <Method name="getPacGuy" returnType="PacGuy" visibility="public"/>
+        <Method name="getPacGuy1" returnType="PacGuy" visibility="public"/>
+        <Method name="getPacGuy2" returnType="PacGuy" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="StartGui" package="BackGround" visibility="public" xPosition="1241.0" yPosition="281.0">
+      <Fields>
+        <Field name="pacGuy" type="PacGuy" visibility="package"/>
+        <Field name="bghost" type="bghost" visibility="package"/>
+        <Field name="ghost" type="ghosts" visibility="package"/>
+        <Field name="yghost" type="yghost" visibility="package"/>
+        <Field name="rghost" type="rghost" visibility="package"/>
+        <Field name="pac" type="PAC" visibility="package"/>
+        <Field name="medium" type="JButton" visibility="package"/>
+        <Field name="timer" type="Timer" visibility="package"/>
+        <Field name="timStartGui" type="TimStartGui" visibility="package"/>
+        <Field name="MGP" type="AudioPlayer" visibility="package"/>
+        <Field name="BGM" type="AudioStream" visibility="package"/>
+        <Field name="MD" type="AudioData" visibility="package"/>
+        <Field name="loop" type="ContinuousAudioDataStream" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getLoop" returnType="ContinuousAudioDataStream" visibility="public"/>
+        <Method name="setLoop" returnType="void" visibility="public">
+          <Argument type="ContinuousAudioDataStream" name="loop"/>
+        </Method>
+        <Method name="getTimer" returnType="Timer" visibility="public"/>
+        <Method name="getMgp" returnType="AudioPlayer" visibility="public"/>
+        <Method name="getPacGuy" returnType="PacGuy" visibility="public"/>
+        <Method name="getPac" returnType="PAC" visibility="public"/>
+        <Method name="getbghost" returnType="bghost" visibility="public"/>
+        <Method name="getGhost" returnType="ghosts" visibility="public"/>
+        <Method name="getYghost" returnType="yghost" visibility="public"/>
+        <Method name="getRghost" returnType="rghost" visibility="public"/>
+        <Method name="getEasy" returnType="JButton" visibility="public"/>
+        <Method name="getMedium" returnType="JButton" visibility="public"/>
+        <Method name="getHard" returnType="JButton" visibility="public"/>
+        <Method name="getMap2" returnType="JButton" visibility="public"/>
+        <Method name="getTimStartGui" returnType="TimStartGui" visibility="public"/>
+        <Method name="music" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="map" source="BackGround.OyunPenceresi" target="BackGround.Map" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="Map"/>
+    <UseRelation source="BackGround.Map" target="BackGround.Score" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="BackGround.OyunPenceresi" target="BackGround.Map" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="BackGround.Cerceve" target="BackGround.StartGui" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="BackGround.Map" target="BackGround.StartGui" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="score" source="BackGround.Map" target="BackGround.Score" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="startGui" source="BackGround.Cerceve" target="BackGround.StartGui" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="BackGround.StartGui" target="BackGround.StartGui" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="BackGround.OyunPenceresi2" target="BackGround.Score2" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="score2" source="BackGround.OyunPenceresi2" target="BackGround.Score2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="oyun" source="BackGround.Cerceve" target="BackGround.OyunPenceresi" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="BackGround.OyunPenceresi2" target="BackGround.StartGui" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

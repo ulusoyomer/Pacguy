@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Paint">
+  <ClassDiagramComponents>
+    <Class name="bghost" package="Paint" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+        <Method name="image" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Engel" package="Paint" visibility="public" xPosition="231.0" yPosition="230.0">
+      <Fields>
+        <Field name="en" type="int" visibility="private"/>
+        <Field name="boy" type="int" visibility="private"/>
+        <Field name="x" type="int" visibility="private"/>
+        <Field name="y" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="x"/>
+          <Argument type="int" name="y"/>
+          <Argument type="int" name="en"/>
+          <Argument type="int" name="boy"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="g"/>
+        </Method>
+        <Method name="setEn" returnType="void" visibility="public">
+          <Argument type="int" name="en"/>
+        </Method>
+        <Method name="setBoy" returnType="void" visibility="public">
+          <Argument type="int" name="boy"/>
+        </Method>
+        <Method name="setX" returnType="void" visibility="public">
+          <Argument type="int" name="x"/>
+        </Method>
+        <Method name="setY" returnType="void" visibility="public">
+          <Argument type="int" name="y"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Engeller" package="Paint" visibility="public" xPosition="442.0" yPosition="39.0">
+      <Fields>
+        <Field name="genislik" type="int" visibility="private" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getGenislik" returnType="int" visibility="public"/>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="g"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="ghosts" package="Paint" visibility="public" xPosition="721.0" yPosition="20.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+        <Method name="image" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="PAC" package="Paint" visibility="public" xPosition="1029.0" yPosition="265.0">
+      <Fields>
+        <Field name="image" type="BufferedImage" visibility="protected"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PacGuy" package="Paint" visibility="public" xPosition="660.0" yPosition="198.0">
+      <Fields>
+        <Field name="image" type="BufferedImage" visibility="protected"/>
+        <Field name="genislik" type="int" visibility="protected" isFinal="true"/>
+        <Field name="yon" type="int" visibility="private"/>
+        <Field name="yon2" type="int" visibility="private"/>
+        <Field name="x" type="int" visibility="package"/>
+        <Field name="y" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getYon2" returnType="int" visibility="public"/>
+        <Method name="setYon2" returnType="void" visibility="public">
+          <Argument type="int" name="yon2"/>
+        </Method>
+        <Method name="getGenislik" returnType="int" visibility="public"/>
+        <Method name="getYon" returnType="int" visibility="public"/>
+        <Method name="setYon" returnType="void" visibility="public">
+          <Argument type="int" name="yon"/>
+        </Method>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+        <Method name="repaint" returnType="void" visibility="public"/>
+        <Method name="image" returnType="void" visibility="public"/>
+        <Method name="Fhareket" returnType="void" visibility="public"/>
+        <Method name="hareket2" returnType="void" visibility="public"/>
+        <Method name="sag" returnType="void" visibility="public"/>
+        <Method name="sol" returnType="void" visibility="public"/>
+        <Method name="yukari" returnType="void" visibility="public"/>
+        <Method name="asagi" returnType="void" visibility="public"/>
+        <Method name="Map2haraket" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="rghost" package="Paint" visibility="public" xPosition="1041.0" yPosition="489.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+        <Method name="image" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Yem" package="Paint" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Yem2" package="Paint" visibility="public" xPosition="231.0" yPosition="541.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="yghost" package="Paint" visibility="public" xPosition="442.0" yPosition="578.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="paint" returnType="void" visibility="public">
+          <Argument type="Graphics" name="grphcs"/>
+        </Method>
+        <Method name="image" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="IYON" package="Paint" visibility="public" xPosition="1042.0" yPosition="54.0">
+      <Methods/>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Paint.PacGuy" target="Paint.IYON"/>
+    <IsRelation name="is" source="Paint.bghost" target="Paint.PacGuy"/>
+    <IsRelation name="is" source="Paint.yghost" target="Paint.PacGuy"/>
+    <IsRelation name="is" source="Paint.rghost" target="Paint.PacGuy"/>
+    <IsRelation name="is" source="Paint.ghosts" target="Paint.PacGuy"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Paint.ghosts" target="Paint.IYON"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

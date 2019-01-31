@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Listener">
+  <ClassDiagramComponents>
+    <Class name="KeyListenerr" package="Listener" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="map" type="Map" visibility="package"/>
+        <Field name="oyunPenceresi2" type="OyunPenceresi2" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Map" name="map"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="OyunPenceresi2" name="oyunPenceresi2"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="keyTyped" returnType="void" visibility="public">
+          <Argument type="KeyEvent" name="ke"/>
+        </Method>
+        <Method name="keyPressed" returnType="void" visibility="public">
+          <Argument type="KeyEvent" name="ke"/>
+        </Method>
+        <Method name="keyReleased" returnType="void" visibility="public">
+          <Argument type="KeyEvent" name="ke"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="TimStartGui" package="Listener" visibility="public" xPosition="391.0" yPosition="20.0">
+      <Fields>
+        <Field name="startGui" type="StartGui" visibility="package"/>
+        <Field name="map" type="Map" visibility="package"/>
+        <Field name="cerceve" type="Cerceve" visibility="package"/>
+        <Field name="oyunPenceresi2" type="OyunPenceresi2" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="StartGui" name="startGui"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="Map" name="map"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="Cerceve" name="cerceve"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="OyunPenceresi2" name="oyunPenceresi2"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="ae"/>
+        </Method>
+        <Method name="Starthareket" returnType="void" visibility="public">
+          <Argument type="E" name="e"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
