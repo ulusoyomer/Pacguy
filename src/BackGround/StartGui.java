@@ -156,9 +156,9 @@ public class StartGui extends JPanel {
     }
     public JButton getMap2(){
         if(map2 == null){
-            map2 = new JButton("Esra Mapı");
+            map2 = new JButton("2. Harita");
             map2.setBounds(400, 400, 95, 25);
-            map2.setBackground(Color.blue);
+            map2.setBackground(Color.green);
         }
         return map2;
     }

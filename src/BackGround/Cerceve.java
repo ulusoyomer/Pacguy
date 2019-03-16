@@ -66,4 +66,12 @@ public class Cerceve {
         }
         return timStartGui;
     }
+
+    public void setZorluk(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Object getOyun() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

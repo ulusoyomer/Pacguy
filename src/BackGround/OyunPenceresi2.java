@@ -67,10 +67,10 @@ public class OyunPenceresi2 {
 
 /////////////////////////////////////////////////
     Engel harfcu01 = new Engel(50, 100, 150, 1);
-    Engel harfcu02 = new Engel(225, 100, 150, 1);
+    Engel harfcu02 = new Engel(225, 100, 150, 1); ////// üst çizgiler
     Engel harfcu03 = new Engel(400, 100, 150, 1);
     Engel harfcu04 = new Engel(575, 100, 150, 1);
-
+////////////////////////////////////////////////////
     Engel harfcl01 = new Engel(50, 100, 1, 175);
     Engel harfcl02 = new Engel(225, 100, 1, 175);
     Engel harfcl03 = new Engel(400, 100, 1, 175);
@@ -80,38 +80,14 @@ public class OyunPenceresi2 {
     Engel harfcr02 = new Engel(375, 100, 1, 175);
     Engel harfcr03 = new Engel(550, 100, 1, 175);
     Engel harfcr04 = new Engel(725, 100, 1, 175);
-
+//////////////////////////////////////////////////
     Engel harfcd01 = new Engel(50, 275, 150, 1);
-    Engel harfcd02 = new Engel(225, 275, 150, 1);
+    Engel harfcd02 = new Engel(225, 275, 150, 1); //////// al çizgiler
     Engel harfcd03 = new Engel(400, 275, 150, 1);
     Engel harfcd04 = new Engel(575, 275, 150, 1);
 
 ///////////////////////////////////////////////////   
-    Engel harf_e01 = new Engel(75, 125, 25, 125);
-    Engel harf_e02 = new Engel(100, 125, 75, 25);
-    Engel harf_e03 = new Engel(100, 175, 50, 25);
-    Engel harf_e04 = new Engel(100, 225, 75, 25);
-
-    Engel harf_s01 = new Engel(275, 125, 75, 25);
-    Engel harf_s02 = new Engel(250, 125, 25, 75);
-    Engel harf_s03 = new Engel(275, 175, 50, 25);
-    Engel harf_s04 = new Engel(325, 175, 25, 75);
-    Engel harf_s05 = new Engel(250, 225, 75, 25);
-
-    Engel harf_r01 = new Engel(425, 125, 25, 125);
-    Engel harf_r02 = new Engel(450, 125, 50, 25);
-    Engel harf_r03 = new Engel(450, 175, 50, 25);
-    Engel harf_r04 = new Engel(500, 125, 25, 75);
-    Engel harf_r05 = new Engel(460, 200, 10, 10);
-    Engel harf_r06 = new Engel(470, 210, 10, 10);
-    Engel harf_r07 = new Engel(480, 220, 10, 10);
-    Engel harf_r08 = new Engel(490, 230, 10, 10);
-    Engel harf_r09 = new Engel(500, 240, 10, 10);
-
-    Engel harf_a01 = new Engel(600, 125, 25, 125);
-    Engel harf_a02 = new Engel(625, 125, 50, 25);
-    Engel harf_a03 = new Engel(625, 175, 50, 25);
-    Engel harf_a04 = new Engel(675, 125, 25, 125);
+    
 
 ////////////////////////////////////////////////////// 
     Engel sekil06 = new Engel(50, 300, 150, 25);
@@ -185,31 +161,7 @@ public class OyunPenceresi2 {
         getJpanel().add(harfcd03);
         getJpanel().add(harfcd04);
 
-        getJpanel().add(harf_e01);
-        getJpanel().add(harf_e02);
-        getJpanel().add(harf_e03);
-        getJpanel().add(harf_e04);
-
-        getJpanel().add(harf_s01);
-        getJpanel().add(harf_s02);
-        getJpanel().add(harf_s03);
-        getJpanel().add(harf_s04);
-        getJpanel().add(harf_s05);
-
-        getJpanel().add(harf_r01);
-        getJpanel().add(harf_r02);
-        getJpanel().add(harf_r03);
-        getJpanel().add(harf_r04);
-        getJpanel().add(harf_r05);
-        getJpanel().add(harf_r06);
-        getJpanel().add(harf_r07);
-        getJpanel().add(harf_r08);
-        getJpanel().add(harf_r09);
-
-        getJpanel().add(harf_a01);
-        getJpanel().add(harf_a02);
-        getJpanel().add(harf_a03);
-        getJpanel().add(harf_a04);
+        
 
         getJpanel().add(sekil06);
         getJpanel().add(sekil08);

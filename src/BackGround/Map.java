@@ -431,4 +431,12 @@ public class Map extends JPanel implements IYON {
         MGP.start(loop);
 
     }
+
+    public void carpisma7() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void hareket2() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

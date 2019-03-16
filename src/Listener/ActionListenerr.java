@@ -31,7 +31,7 @@ public class ActionListenerr implements ActionListener{
             cerceve.getJFrame().setVisible(false);
             cerceve.setZorluk(12);
             cerceve.getstartGui().getMgp().stop(cerceve.getstartGui().getLoop());
-            cerceve.getOyun().setVisible(true);
+           // cerceve.getOyun().setVisible(true);
 
             
            
@@ -47,7 +47,7 @@ public class ActionListenerr implements ActionListener{
             cerceve.getJFrame().setVisible(false);
             cerceve.setZorluk(9);
             cerceve.getstartGui().getMgp().stop(cerceve.getstartGui().getLoop());
-            cerceve.getOyun().setVisible(true);
+           // cerceve.getOyun().setVisible(true);
             
             
         }
@@ -57,7 +57,7 @@ public class ActionListenerr implements ActionListener{
             cerceve.getJFrame().setVisible(false);
             cerceve.setZorluk(5);
             cerceve.getstartGui().getMgp().stop(cerceve.getstartGui().getLoop());
-            cerceve.getOyun().setVisible(true);
+           // cerceve.getOyun().setVisible(true);
             
             
             

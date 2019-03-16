@@ -24,11 +24,7 @@ public class TimMap implements ActionListener{
         
         }
         if(ae.getSource() == map.getTimer2()){
-            try {
-                map.carpisma7();
-            } catch (InterruptedException ex) {
-                Logger.getLogger(TimMap.class.getName()).log(Level.SEVERE, null, ex);
-            }
+            map.carpisma7();
             map.carpisma3();
         map.getGhosts().hareket2();
         map.getRGhosts().hareket2();
