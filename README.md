@@ -20,7 +20,7 @@ zorluğa göre hayaletlerimizin hareket hızı artmaktadır.<br>
 #### İlk Haritamız
 ![İlk Harita](https://github.com/ulusoyomer/Pacguy/blob/master/Readmeimg/ilkharita.PNG)<br>
 Oyunumuzun amacı yeşil renkteki yemlerin üzerinden geçerek hayaletlere yakalanmadan bütün yemleri bitirmektir.Yem yedikçe puanımız *1* artar
-fakat hayaletlere yakalanırsak 2 sn bekleyip ilk doğduğumuz yere ışınlanırız.
+fakat hayaletlere yakalanırsak 2 saniye bekleyip ilk doğduğumuz yere ışınlanırız.
 <br>
 **Oyun Bitiş Ekranı** <br>
 ![Can Biterse](https://github.com/ulusoyomer/Pacguy/blob/master/Readmeimg/ilkharitaolum.PNG)<br>
