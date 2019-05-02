@@ -1,5 +1,5 @@
 # Pacguy
-https://github.com/huseyinmertneyse ile ortak projemizdir.a
+https://github.com/huseyinmertneyse ile ortak projemizdir.
 ## Geliştirilme Ortamı
 Java Geliştirme Ortamı Bulunan **NetBeans** ile yazıldı.<br>
 ![NetBeans Resmi](https://github.com/ulusoyomer/Pacguy/blob/master/Readmeimg/NetBeans.png)
