@@ -1,5 +1,5 @@
 # Pacguy
-Simple Game like PACMAN. Coding is Java
+https://github.com/huseyinmertneyse ile ortak projemizdir.a
 ## Geliştirilme Ortamı
 Java Geliştirme Ortamı Bulunan **NetBeans** ile yazıldı.<br>
 ![NetBeans Resmi](https://github.com/ulusoyomer/Pacguy/blob/master/Readmeimg/NetBeans.png)
