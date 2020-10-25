@@ -24,7 +24,7 @@ fakat hayaletlere yakalanırsak 2 saniye bekleyip ilk doğduğumuz yere ışınl
 <br>
 **Oyun Bitiş Ekranı** <br>
 ![Can Biterse](https://github.com/ulusoyomer/Pacguy/blob/master/Readmeimg/ilkharitaolum.PNG)<br>
-**Can Barımız ve Skrumuz**<br>
+**Can Barımız ve Skorumuz**<br>
 ![Can Barımız ve Skorumuz](https://github.com/ulusoyomer/Pacguy/blob/master/Readmeimg/Can.PNG)<br>
 Canımız azaldıkça solda gözüken karakterimizin resmi azlır ve ortadaki sayımızda azalır. Eğer hayaletlere yakalanırsak puanımızdan 10 puan
 çıkarılır.<br>
